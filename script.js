@@ -75,3 +75,21 @@ if (personalMovieDB.count < 10) {
   ("Произошла ошибка");
 }
 console.log(personalMovieDB);
+
+// ========================================
+// let k = 0;
+// while (k < 2) {
+//   const c = prompt("Один из последних просмотренных фильмов?", ""),
+//     d = prompt("На сколько оцените его?", "");
+//   k++;
+//   personalMovieDB.movies[c] = d;
+// }
+// ========================================
+
+// let j = 0;
+// do {
+//   const c = prompt("Один из последних просмотренных фильмов?", ""),
+//     d = prompt("На сколько оцените его?", "");
+//   personalMovieDB.movies[c] = d;
+//   j++;
+// } while (j < 2);
